@@ -307,6 +307,8 @@ footer {
 
 
 @media all and (max-width: 800px) {
+    
+
     body {
         font-size: 15px;
         width: 100%;
@@ -317,6 +319,7 @@ footer {
       display: block;
     }
 
+    
     footer {
       grid-template-columns: 1fr;
       text-align: center;
@@ -331,56 +334,54 @@ footer {
       margin: 40px auto;
       text-align: center;
       border-bottom: 5px solid #ffcc33;
-    }
+}
 
     .nav .I {
       display: none;
     }
 
     .nav h1 a {
-      /* Залишу видимим заголовок, але зменшу розмір */
-      display: block;
-      font-size: 28px;
-      color: blue;
-      text-align: center;
-      margin-bottom: 15px;
+      display: none;
     }
-
-    .nav .I li {
-      flex-basis: 100%;
+    .nav .I li{
+        flex-basis: 100%;
     }
 
     .nav .toggleNav {
         display: block;
         font-size: 40px;
-        margin: 0 auto 100px auto;
-        cursor: pointer; /* додано курсор для кнопки */
-        user-select: none;
-        transition: color 0.3s ease;
+        margin: auto auto;
+        margin-bottom: 100px;
     }
 
-    .nav .toggleNav:hover {
-      color: #741cff;
+    /* .main.nothing {
+      display: none;
+    } */
+
+    .footer.nothing {
+      display: none;
+    }
+
+    .container2.nothing {
+      display: none;
     }
 
     .nav ul.open {
       display: flex;
       flex-basis: 250px;
-      height: auto; /* height краще зробити авто для різної кількості пунктів */
-      max-height: 400px;
+      height: 300px;
       flex-direction: column;
       align-self: center;
       justify-content: center;
-      overflow-y: auto;
-      transition: max-height 0.5s ease;
     }
 
     .nav {
       height: auto;
       flex-direction: column;
       margin: 0 auto;
+      /* width:  */
     }
-
+    
     .maria {
       width: 100%;
       max-width: 300px;
@@ -399,17 +400,22 @@ footer {
     }
 
     .content-text p {
-      font-size: 14px; /* збільшив для читабельності */
-      line-height: 1.4;
-      color: #555;
-      padding: 0 10px;
+      font-size: 8px;
     }
-
+    
     .content {
-      display: grid;
-      grid-template-columns: 1fr;
-      gap: 30px;
-    }
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+   }
+
+   .content-text-2 {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
 
     .my-skils {
       flex-direction: column;
@@ -425,31 +431,17 @@ footer {
     .text {
       flex-direction: column;
       gap: 10px;
-    }
+    }  
+    
+    
 
-    .zagolovok h1 {
-      margin-top: 80px; /* зменшив з 200px */
-      font-size: 2.5rem;
-      padding: 0 10px;
-      text-align: center;
-    }
-
-    /* Краще підлаштувати padding для контейнерів, щоб не було занадто широких відступів */
-    .container, .container2 {
-      padding: 0 15px;
-      box-sizing: border-box;
-    }
-
-    /* Щоб посилання в меню були зручніші для торкання */
-    .I li a {
-      padding: 12px 10px;
-      display: block;
-      font-size: 16px;
-    }
-
-    /* Додам плавність для кольору посилань при наведенні */
-    .I a:hover {
-      color: #741cff;
-      transition: color 0.3s ease;
-    }
 }
+
+
+
+
+
+
+
+
+
