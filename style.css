@@ -339,6 +339,11 @@ footer {
     footer {
       grid-template-columns: 1fr;
       text-align: center;
+      padding: 40px;
+    }
+
+    .foot {
+      max-width: 200px;
     }
 
     .content-text-2 {
@@ -438,12 +443,12 @@ footer {
       align-items: center;
       padding: 0 20px;
       margin: 0;
+      margin-bottom: 30px;
     }
 
     .foot, .text {
       grid-column: auto;
       margin: 0 auto;
-      max-width: 200px;
     }
 
     .text {
