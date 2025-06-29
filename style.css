@@ -341,9 +341,6 @@ footer {
       text-align: center;
     }
 
-    .foot {
-      max-width: 200px;
-    }
     .content-text-2 {
       background-color: white;
       border-radius: 15px;
@@ -446,6 +443,7 @@ footer {
     .foot, .text {
       grid-column: auto;
       margin: 0 auto;
+      max-width: 200px;
     }
 
     .text {
