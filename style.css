@@ -54,6 +54,7 @@ header a {
   color: blue;
 }
 
+
 main {
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
@@ -353,11 +354,15 @@ footer {
         margin-bottom: 100px;
     }
 
-    .main.nothing {
+    /* .main.nothing {
+      display: none;
+    } */
+
+    .footer.nothing {
       display: none;
     }
 
-    .footer.nothing {
+    .container2.nothing {
       display: none;
     }
 
