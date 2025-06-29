@@ -315,11 +315,7 @@ footer {
         padding: 0 10px;
     }
 
-    main {
-      display: block;
-    }
 
-    
     footer {
       grid-template-columns: 1fr;
       text-align: center;
@@ -356,7 +352,7 @@ footer {
 
     .main.nothing {
       display: none;
-    } 
+    }
 
     .footer.nothing {
       display: none;
