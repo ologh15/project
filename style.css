@@ -54,10 +54,10 @@ header a {
   color: blue;
 }
 
-main {
+/*main {
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
-}
+}*/
 
 .container h1 {
   text-align: center;
