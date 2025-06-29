@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Мої вміння</title>
+
+    <!-- Підключення стилів -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Підключення FontAwesome для використання текстових іконок -->
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.15.4/js/all.js"
+      integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <nav class="nav">
+        <a href="#" class="toggleNav">
+          <i class="fas fa-chevron-circle-down" title="align-justify"></i>
+        </a>
+        <h1><a href="index.html">MB</a></h1>
+        <ul class="I">
+          <li><a href="/#about_ME">Про мене</a></li>
+          <li><a href="/#vmina">Мої вміння</a></li>
+          <li><a href="skills.html">Мої проекти</a></li>
+          <li><a href="https://www.facebook.com/?locale=uk_UA" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+          <li><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a></li>
+          <li><a href="https://www.youtube.com/?app=desktop&gl=UA&hl=uk" target="_blank"><i class="fab fa-youtube"></i></a></li>
+        </ul>        
+      </nav>
+    </header>
+    <main class="main">
+      <div class="container2">
+        <div class="content content-1">
+          <div class="zag">
+            <span><h1 class="zag-1">Мої проекти</h1></span>
+            <span><p class="zag-2">Подивіться на проекти, які я зробив, навчаючись у школі Robocode</p></span>
+          </div>
+          
+          <div class="content-text cnt-1">
+            <img src="images/cat-app.png" alt="" class="img-cats">
+            <h1>Huuber - досконалий паспорт вашого хвостика</h1>
+            <p>Розробка стратегії розвитку для компанії Huuber, що збирає дані продомашнього улюбленця в одну базу
+              та виводить інформацію у ваш додаток. Результат - зростання продажів на 30% за перше півріччя.</p>
+          </div>
+          
+          <div class="content-text cnt-2">
+            <img src="images/sait.png" alt="" class="img-cats">
+            <h1>Мій сайт на якову ви зараз знаходитесь</h1>
+            <p>Під час створення цього сайту я використав знання, отримані в школі Robocode. 
+              Використовував HTML, CSS, трохи JavaScript (jQuery), а також Flexbox, Grid і медіа-запити для адаптивності. 
+              Для оформлення застосував іконки FontAwesome та працював у середовищі Visual Studio Code.
+            </p>
+          </div>
+        </div>
+      
+        <!-- <div class="content content-2">
+          <img src="images/sait.png" alt="" class="img-cats">
+          <div class="content-text cnt-2">
+            <h1>Мій сайт на якову ви зараз знаходитесь</h1>
+            <p>Під час створення цього сайту я використав всі свої зання. Я</p>
+          </div>
+        </div> -->
+      </div>
+    </main>
+    
+
+
+
+
+
+
+
+
+
+
+
+    <footer class="footer">
+      <div class="foot">
+        <h1 class="cat">Urev Oleksandr</h1>
+        <ul class="cater">
+          <li><a href="/index.html#about_ME"><b>Про мене</b></a></li>
+          <li><a href="/index.html#vmina"><b>Мої вміння</b></a></li>
+          <li><a href="skills.html"><b>Мої проекти</b></a></li>
+        </ul>
+        <ul class="cater-2">
+          <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+          <li><a href=""><i class="fab fa-instagram"></i></a></li>
+          <li><a href=""><i class="fab fa-youtube"></i></a></li>
+        </ul>
+      </div>
+      <div class="text">
+        <span class="l">©Created by</span>
+        <span class="R">All rights Reserved</span>
+      </div>
+      </footer>
+
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script>
+        $(function() {
+        $('.toggleNav').on('click',function() {
+        $('.nav .I').toggleClass('open');
+        $('.main').toggleClass('nothing')
+        $('.footer').toggleClass('nothing')
+        });
+        });
+    </script>
+  </body>
+</html>
