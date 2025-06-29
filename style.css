@@ -354,9 +354,9 @@ footer {
         margin-bottom: 100px;
     }
 
-    /* .main.nothing {
+    .main.nothing {
       display: none;
-    } */
+    } 
 
     .footer.nothing {
       display: none;
