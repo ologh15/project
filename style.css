@@ -341,6 +341,9 @@ footer {
       text-align: center;
     }
 
+    .foot {
+      max-width: 200px;
+    }
     .content-text-2 {
       background-color: white;
       border-radius: 15px;
